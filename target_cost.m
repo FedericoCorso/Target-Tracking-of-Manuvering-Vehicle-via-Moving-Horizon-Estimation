@@ -1,5 +1,5 @@
 function cost = target_cost(x,M,Ts,ymeas)
-% fnction to compute the cost function to be optimized
+% function to compute the cost function to be optimized
 z0 = x(1:5,1); % 5 states components
 d_in = [x(6:6+M,1)';x(6+M+1:end,1)']; % 2*M+2 elements since the disturbance has 2 components
 

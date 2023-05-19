@@ -1,6 +1,6 @@
 % this script save simulation data from both camera and radar
-% run this if you change something in the simulation and you want to save
-% data in this folder and in the SimulationData folder
+% Usage: Run AFTER executing the simulation only if you changed some
+% parameters of the simulation itself.
 save("cameraData.mat","camera_data");
 save("radarData.mat","radar_data");
 save("GT.mat","ground_truth");
