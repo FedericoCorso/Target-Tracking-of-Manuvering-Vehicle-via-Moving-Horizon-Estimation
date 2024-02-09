@@ -1,1 +1,0 @@
-Salvare la matrice desgli stati per ogni simulazione
